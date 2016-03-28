@@ -1,0 +1,2 @@
+Known bugs:
+3/25/2016: I am aware of a bug in line 30 of parsing.py.  This bug restricts the number of aliases.  Do not attempt to fix this bug as I believe that will result in a far more serious problem.  I will fix the problem and rewrite the code so that it runs faster.
