@@ -10,7 +10,7 @@ for i in f:
 
 for i in rawdata:
     if mrnas.has_key(i[0])==False:
-        mrnas[i[0]]=[[i[1:5]]]
+        mrnas[i[0]]=[i[1:5]]
         mrnas[i[0]].append([i[5:-1]])
         sequence[i[6]]=i[-1]
     else:
